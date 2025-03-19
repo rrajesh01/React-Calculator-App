@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0cc8e; /* Dark background for contrast */
+}
+
+.calculator {
+  width: 220px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
